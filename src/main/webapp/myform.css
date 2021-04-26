@@ -1,0 +1,40 @@
+body{
+    background-image:url("myimg.jpg");
+    background-repeat: no-repeat;
+    background-color: red;
+    background-size:cover;
+}
+h1{
+	text-allign:center;
+}
+h3{
+	text-allign:center;
+}
+  .card{
+      background-color: rgba(200,200,255,0.8);
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      padding: 15px;
+      width:50%;
+      margin:auto;
+      margin-top: 20px;
+    
+    }
+    .button1{
+	background-color: white; /* Green */
+  
+  color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+  border: 2px solid blue;
+}
+.button1:hover{
+	 background-color: blue;
+  color: white;
+}
